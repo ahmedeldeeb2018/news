@@ -1,0 +1,11 @@
+<div class="row">
+    <div  *ngFor="let dept of deptcontent"  class="card col-md-6" style="width: 18rem;">
+        <img class="card-img-top" [src]="dept.Image" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{dept.Name}}</h5>
+          <p class="card-text">{{dept.Desc}}</p>
+          <a [routerLink]="['/itemcontent',dept.ID]" class="btn btn-primary">Read More..... </a>
+        </div>
+      </div>
+</div>
+

@@ -1,0 +1,15 @@
+.navbar
+{
+    background-color: black !important;
+    
+
+}
+.navbar a
+{
+    color: white;
+}
+.navbar a:hover
+{
+    color: darkred;
+    padding-bottom: 5px;
+}

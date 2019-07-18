@@ -1,0 +1,9 @@
+.leftside
+{
+    position: fixed;
+    left: 5px;
+    top: 75px;
+    height: 95%;
+    width: 25%;
+    overflow: auto;
+}

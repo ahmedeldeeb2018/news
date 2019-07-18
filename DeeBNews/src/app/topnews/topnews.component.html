@@ -1,0 +1,12 @@
+<div class="leftside">
+    <table class="table table-strip table-hover table-bordred">
+        <thead>
+          <th class="text-center">Top News</th>
+        </thead>
+        <tr *ngFor="let top of topNews">
+          <td>
+            <a [routerLink]="['/itemcontent',top.ID]"> {{top.Name}} </a>
+          </td>
+        </tr>
+      </table>
+</div>
